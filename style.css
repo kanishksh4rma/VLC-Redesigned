@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0%;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.main {
+  color: black;
+}
+
+.main-content {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+}
+#heading1 {
+  position: absolute;
+  top: 7%;
+  right: 50%;
+  transform: translateX(50%);
+  color: black;
+  font-size: 3rem;
+}
+
+#heading1 span {
+  color: rgb(236, 87, 32);
+}
+
+.page1 {
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+
+  height: 100vh;
+}
+.page1-left {
+  margin-left: 8.2rem;
+}
+.page1-left h1 {
+  margin-bottom: 1rem;
+}
+.page1-left p {
+  color: rgba(41, 40, 40, 0.932);
+}
+#d-btn {
+  margin-top: 2rem;
+
+  color: white;
+  background-color: rgb(236, 87, 32);
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 7px;
+  box-shadow: none;
+  border: 1px solid white;
+  font-weight: 200;
+}
+
+#g-btn {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  color: rgba(0, 0, 0, 0.671);
+  background-color: rgb(236, 231, 231);
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 7px;
+  box-shadow: none;
+  border: 1px solid grey;
+  font-weight: 200;
+}
+
+#d-btn:hover {
+  cursor: pointer;
+  background-color: rgba(248, 104, 78, 0.952);
+}
+#g-btn:hover {
+  cursor: pointer;
+  background-color: rgba(245, 216, 209, 0.877);
+}
+
+.page1 img {
+  width: 24rem;
+  height: auto;
+  position: absolute;
+  top: 30%;
+  right: 20%;
+  transform: translate(35%, 20%);
+}
+
+.page2 {
+  width: 100%;
+  height: 110vh;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  background-color: rgba(26, 25, 25, 0.932);
+}
+.page2-content {
+  padding-top: 4rem;
+}
+.page2-content h3 {
+  margin-top: 1rem;
+}
+
+.page2 img {
+  margin-top: 2.8rem;
+  height: auto;
+  width: 35rem;
+}
+
+.page2-content h3 {
+  margin-top: 1rem;
+}
+.page3 {
+  width: 100%;
+  height: 110vh;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  background-color: rgba(26, 25, 25, 0.932);
+}
+.page3-content h3 {
+  margin-top: 1rem;
+}
+.page3 img {
+  margin-top: 2.8rem;
+  height: auto;
+  width: 28rem;
+}
+
+.page3-content span {
+  text-decoration: underline;
+
+  text-decoration-color: white;
+}
+
+.page3-content span:hover {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: tomato;
+  color: tomato;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  height: 15vh;
+  color: rgba(255, 255, 255, 0.712);
+  background-color: rgba(43, 41, 41, 0.925);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.footer-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-content ul {
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.footer-content li {
+  list-style-type: none;
+  font-size: 0.9rem;
+}
+.footer-content p {
+  margin: 1rem;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.705);
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(243, 124, 12, 0.979);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: tomato;
+  outline: 1px thin rgba(255, 99, 71, 0.486);
+}
+
+.page2 h1::selection {
+  color: white;
+  background: rgba(255, 99, 71, 0.726);
+}
+.page3 h1::selection {
+  color: white;
+  background: rgba(255, 99, 71, 0.658);
+}
+
+.footer-content li:hover{
+  color: tomato;
+  cursor: pointer;
+}
